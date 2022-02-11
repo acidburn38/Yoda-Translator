@@ -5,11 +5,12 @@
 
 body {
     background: url(/assets/img/yoda.jpg);
+    width: 100vw;
     height: 100vh;
     background-position: center;
     background-size: cover; /* centrer son image de background et la rendre responsive */
     background-repeat: no-repeat;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,9 +19,14 @@ body {
 
 div {
     background: transparent;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 170px 60px 20px 60px;
-    width: 1100px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     border: solid #7cac0b;
     text-align: center;
     align-items: center;
@@ -30,14 +36,19 @@ div {
 }
 
 .input_to_translate {
-    width: 900px;
+    width: 90%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
     color: white;
     background: transparent;
     border: solid #7cac0b;
     padding: 30px 30px 30px 30px;
     margin: -70px auto;
     border-radius: 15px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Courier New', monospace;
     line-height: 1.6;
 }
@@ -47,18 +58,24 @@ textarea:focus, input:focus{
 }
 
 .btn {
+    width: 200px;
+    height: 50px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
     background: #7cac0b;
     margin: 80px auto;
     padding: 20px 30px 20px 30px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: 'Courier New', monospace;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .text_translated {
     color: rgb(255, 255, 255);
     font-family: 'Courier New', monospace;
     font-size: 2.2em;
-
 }
