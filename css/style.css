@@ -1,55 +1,60 @@
+@font-face
+{
+    font-family: arcade classic;
+    src: url(/assets/font/ARCADECLASSIC.TTF);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: url(/assets/img/yoda.jpg);
     width: 100vw;
     height: 100vh;
     background-position: center;
-    background-size: cover; /* centrer son image de background et la rendre responsive */
+    background-size: 100%; /* centrer son image de background et la rendre responsive */
     background-repeat: no-repeat;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: inline-flex;
 }
 
-div {
-    background: transparent;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 170px 60px 20px 60px;
+.yoda {
+    background-image: url(/assets/img/yoda1.gif);
     width: 50%;
-    height: 40%;
-    border: solid #7cac0b;
+    height: 100%;
+    position: relative;
+    background-position: 35% 65%;
+    background-size: 55%; /* centrer son image de background et la rendre responsive */
+    background-repeat: no-repeat;
+}
+
+.input {
+    background-color: transparent;
+    width: 55%;
+    height: 35%;
+    position: relative;
+    border: solid 8px #7cac0b;
+    text-align: center;
+    padding: 100px 60px 20px 60px; 
     text-align: center;
     align-items: center;
-    margin: auto;
-    margin-top: 20vh;
+    margin: 180px 100px auto -200px;
     border-radius: 15px;
 }
 
 .input_to_translate {
-    width: 90%;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: transparent;
+    width: 80%;
+    position: relative;
     text-align: left;
     color: white;
-    background: transparent;
-    border: solid #7cac0b;
+    border: solid 4px #7cac0b;
     padding: 30px 30px 30px 30px;
     margin: -70px auto;
     border-radius: 15px;
-    font-size: 1.5em;
-    font-family: 'Courier New', monospace;
+    font-size: 2em;
+    font-family: 'arcade classic';
+    color: #7cac0b;
     line-height: 1.6;
 }
 
@@ -58,24 +63,20 @@ textarea:focus, input:focus{
 }
 
 .btn {
-    width: 200px;
-    height: 50px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 140px;
+    height: 40px;
+    position: relative;
     text-align: center;
-    color: white;
+    color: rgb(219, 63, 244);
     background: #7cac0b;
     margin: 80px auto;
-    padding: 20px 30px 20px 30px;
     border-radius: 10px;
-    font-family: 'Courier New', monospace;
+    font-family: 'arcade classic';
     font-size: 1.5em;
 }
 
 .text_translated {
     color: rgb(255, 255, 255);
-    font-family: 'Courier New', monospace;
+    font-family: 'arcade classic';
     font-size: 2.2em;
 }
