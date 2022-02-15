@@ -12,20 +12,16 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-image: url(/assets/img/yoda_bg.png);
     background-position: center;
-    background-size: 100%; /* centrer son image de background et la rendre responsive */
+    background-size: cover; /* centrer son image de background et la rendre responsive */
     background-repeat: no-repeat;
     display: inline-flex;
 }
 
 .yoda {
-    background-image: url(/assets/img/yoda1.gif);
     width: 50%;
     height: 100%;
-    position: relative;
-    background-position: 35% 65%;
-    background-size: 55%; /* centrer son image de background et la rendre responsive */
-    background-repeat: no-repeat;
 }
 
 .input {
@@ -38,7 +34,7 @@ body {
     padding: 100px 60px 20px 60px; 
     text-align: center;
     align-items: center;
-    margin: 180px 100px auto -200px;
+    margin: 250px 100px auto -100px;
     border-radius: 15px;
 }
 
