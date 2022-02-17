@@ -22,35 +22,40 @@ body {
 .yoda {
     width: 50%;
     height: 100%;
+    background-image: url('/assets/img/yoda1.gif');
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .input {
-    background-color: transparent;
+    background-color: #d75cc1;
     width: 55%;
     height: 35%;
     position: relative;
-    border: solid 8px #7cac0b;
+    border: solid 8px #304318;
     text-align: center;
     padding: 100px 60px 20px 60px; 
     text-align: center;
     align-items: center;
-    margin: 250px 100px auto -100px;
+    margin: 260px 200px auto -100px;
     border-radius: 15px;
 }
 
 .input_to_translate {
-    background-color: transparent;
     width: 80%;
+    display: block;
+    background-color: transparent;
     position: relative;
     text-align: left;
     color: white;
-    border: solid 4px #7cac0b;
+    border: solid 4px #304318;
     padding: 30px 30px 30px 30px;
-    margin: -70px auto;
+    margin: -50px auto;
     border-radius: 15px;
     font-size: 2em;
     font-family: 'arcade classic';
-    color: #7cac0b;
+    color: #304318;
     line-height: 1.6;
 }
 
@@ -65,14 +70,14 @@ textarea:focus, input:focus{
     text-align: center;
     color: rgb(219, 63, 244);
     background: #7cac0b;
-    margin: 80px auto;
+    margin: 100px auto;
     border-radius: 10px;
     font-family: 'arcade classic';
     font-size: 1.5em;
 }
 
 .text_translated {
-    color: rgb(255, 255, 255);
+    color: #304318;
     font-family: 'arcade classic';
     font-size: 2.2em;
 }
