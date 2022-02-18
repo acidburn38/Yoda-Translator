@@ -17,6 +17,7 @@ body {
     background-size: cover; /* centrer son image de background et la rendre responsive */
     background-repeat: no-repeat;
     display: inline-flex;
+    word-spacing: 10px;
 }
 
 .yoda {
@@ -29,7 +30,7 @@ body {
 }
 
 .input {
-    background-color: #d75cc1;
+    background-color: transparent;
     width: 55%;
     height: 35%;
     position: relative;
@@ -38,7 +39,7 @@ body {
     padding: 100px 60px 20px 60px; 
     text-align: center;
     align-items: center;
-    margin: 260px 200px auto -100px;
+    margin: 150px 200px auto -100px;
     border-radius: 15px;
 }
 
@@ -56,7 +57,7 @@ body {
     font-size: 2em;
     font-family: 'arcade classic';
     color: #304318;
-    line-height: 1.6;
+    word-spacing: 10px;
 }
 
 textarea:focus, input:focus{
